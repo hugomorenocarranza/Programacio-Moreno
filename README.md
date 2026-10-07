@@ -7,4 +7,4 @@ Classe - 1rC
 Modalitat - Artistic
 
 Presentacio:
-Me gusta la programacion.
+Me gusta la programacion. :+1:
