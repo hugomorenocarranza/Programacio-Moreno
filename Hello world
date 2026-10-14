@@ -1,2 +1,10 @@
-print ("\n hola mundo \n")
-input()
+print("Quin es el teu nom?")
+nom = input()
+print("Hola " + nom)
+
+num = 1
+print(num)
+num = 2.5
+print(num)
+num = "ups"
+print(num)
