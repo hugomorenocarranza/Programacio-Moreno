@@ -1,10 +1,8 @@
-print("Quin es el teu nom?")
+print("Com et dius?")
 nom = input()
-print("Hola " + nom)
-
-num = 1
-print(num)
-num = 2.5
-print(num)
-num = "ups"
-print(num)
+print ("En quin any vas nèixer")
+any = int(input())
+anyActual = 2026
+edat = 2026 - any
+print("Hola, " + nom + ", tens " + str(edat) + " anys")
+print ("Hola mundo :-)")
