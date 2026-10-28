@@ -1,12 +1,14 @@
 def cambiarOrdre(n1,n2):
-    print("Vols cambiar l'ordre dels numeros? (si/no)")
+    print("Vols cambiar l'ordre de l'operació de (", n1, ", ", n2, ") a: (", n2, ", ", n1, ")? (si/no)")
     resposta = input()
     if resposta == "si":
         return n2, n1
     elif resposta == "no":
         print("No s'ha canviat l'ordre dels números")
+        return n1, n2
     else:
         print("Resposta no vàlida, escriu 'si' o 'no' en minuscules")
+        return n1, n2
 print("Escriu un número")
 n1 = input()
 print("Escriu un segon número")
